@@ -1,0 +1,13 @@
+{application, durga_client_erlang, [
+  {description, "erlang client for durga"},
+  {vsn, "0.1.0"},
+  {modules, []},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib,
+    ssl
+  ]},
+  {mod, {durga_client_erlang_app, []}},
+  {env, []}
+]}.
